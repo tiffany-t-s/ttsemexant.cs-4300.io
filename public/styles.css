@@ -1,0 +1,57 @@
+body{
+    background-image: url(Images/Main\ Image.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    font-family: "Copse", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+header{
+    max-height: 20%;
+    width: 98%;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #C02509;
+    background-color: #e9c083;
+    border: 4px groove #E9730E;
+    margin: 5px;
+    line-height: .7;
+    text-shadow: 1px 1px 5px #E9730E; 
+    letter-spacing: 2px;
+}
+nav{
+    background-color: #C02509;
+    color: #C02509;
+    padding: 5px;
+    text-shadow: none;
+}
+main{
+    background-color: #3d4320;
+    width: 98%;
+    min-height: 500px;
+    border: 4px groove #E9730E;
+    margin: 5px;
+    color: #e9c083;
+    padding: 5px;
+}
+
+p{
+    padding: 10px;
+}
+
+.button{
+    color: #e9c083;
+    font-family: "Instrument Serif", serif;
+    font-weight: 00;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    padding: 5px;
+    letter-spacing: 2px;
+    margin: 5px;
+}
