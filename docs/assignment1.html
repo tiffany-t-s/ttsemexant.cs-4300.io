@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>CS4300 Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Copse&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Copse&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <h1 style="font-weight:300;"><span style="color: #3d4320">&#128916;&#128924;&#128917;</span> CS 4300 - Assignment 1 <span style="color: #3d4320">&#128917;&#128924;&#128916;</span></h1>
+        <h3 style="color: #6F532A; font-weight: 300;">Tiffany Semexant</h3>
+        <nav>
+            <a href="index.html" class="button">Home</a>
+            <a href="#" class="button">Assignment 2</a>
+            <a href="#" class="button">Assignment 3</a>
+            <a href="#" class="button">Assignment 4</a>
+        </nav>
+    </header>
+    <main>
+        <div class="headings">
+            <h2 style="font-weight:300;">Starry Night</h2>
+        </div><center>
+        <div style="justify-content: center;" id="video1">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/OOxtucrwEeg?si=zALnWewieH7_Mr48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div></center><hr>
+        <div id="explantaion">
+            <p class="texts">
+                The first function that I used was <span style="color: #E9730E;"><i>mix()</i></span>, in order to create the shifting gradient. I first used it to have the black and blue colors make a static vertical gradient, then I used it to make the two colors pulse between each other, and lastly I used <span style="color: #E9730E;"><i>mix()</i></span> to combine the prior mixes. To make the colors pulse between each other, I used the <span style="color: #E9730E;"><i>sin()</i></span> function, which is heavily utilized throughout the code. <span style="color: #E9730E;"><i>sin()</i></span> is also used to make other elements, like the dots and trailing circles, move as well. <span style="color: #E9730E;"><i>smoothstep()</i></span> is used in this piece to neatly make circular patterns, which can then be rotated (using <span style="color: #E9730E;"><i>rotate()</i></span>) or used to create a trail effect with <span style="color: #E9730E;"><i>lastframe()</i></span>. Overall, there aren't many intricate or special functions used. I mainly utilized very simple functions repetitively with slight tweaks to achieve differing results. 
+            </p>
+            <p class="texts">
+                My piece was mainly inspired by a starry night sky, and getting swept away in the stars. I used a pulsing gradient of black and blue to create the feel of a moving night sky, and then overlaid the dots on top of it to mimic the stars, trying to make them look a bit fuzzy/blurred. The dots speeding up, growing, and moving directions are to try to make you feel like you're moving faster through space. To replicate shooting stars and give a break from the earlier chaos, I used a grid of dots that leave a trail behind them. Then, that eventually turns back into chaos as they burst and scatter stardust on the screen, and then everything starts to swirl and pick back up into chaos again, a bit like a nebula. Lastly, everything whites out, leaving a blank slate for new creation.
+            </p>
+            <p class="texts">
+                The main feedback that I got on the piece… 
+            </p>
+        </div><hr>
+        <div id="code">
+            <center><p class="texts" style="font-size: 25px;">
+                Code Used: <a class="links" href="Assignment1Code.wgsl" download>click me!</a>
+            </p></center>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+  </body>
+</html>
